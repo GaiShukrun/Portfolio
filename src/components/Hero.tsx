@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
                 <div className="profile-image-container">
                   <img 
                     src={profileImage} 
-                    alt="Gai Shukrun - Full Stack Developer" 
+                    alt="Guy Shukrun - Full Stack Developer" 
                     className="profile-image"
                     onLoad={() => setImageLoaded(true)}
                   />
@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
                 <a href="https://github.com/GaiShukrun" target="_blank" rel="noopener noreferrer" className="social-icon github">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/gai-shukrun-971265263/" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
+                <a href="https://www.linkedin.com/in/guy--shukrun/" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="mailto:gaisom100@gmail.com" className="social-icon email">
@@ -91,14 +91,16 @@ const Hero: React.FC = () => {
           
           <div className="hero-left">
             <div className="title-container">
-              <h1 className="hero-greeting">Hi, I'm <span className="name-highlight">Gai Shukrun</span></h1>
+              <h1 className="hero-greeting">Hi, I'm <span className="name-highlight">Guy Shukrun</span></h1>
               <span className="pre-title">Full Stack Developer</span>
 
             </div>
             
             <p className="hero-description">
-              Transforming ideas into <strong>powerful web applications</strong> with expertise in <strong>full stack development</strong> and the <strong>MERN stack</strong>. Focused on creating elegant, scalable solutions for modern business challenges.
-            </p>
+            B.sc. in software engineering with a passion for building real-world applications. Experienced in <strong>AI-powered </strong>
+features and data-rich interfaces. Looking forward to my next challenge. Strong communication skills and
+proven ability to deliver under pressure.
+             </p>
             
             <div className="content-column">
               <div className="tech-stack">
